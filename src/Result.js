@@ -5,8 +5,8 @@ function Result(){
             <tr>
                 <td>{date}</td>
                 <td>{description}</td>
-                <td>{}</td>
-                <td></td>
+                <td>{category}</td>
+                <td>{grade}</td>
             </tr>
         </div>
     )
