@@ -7,7 +7,7 @@ function ResultContainer(){
     const [results, setResults] = useState([])
     useEffect(()=>{ //fetching the data
         fetch('http://localhost:3001/results')
-        .then(resp => console.log(resp))
+        .then(resp => setResults(resp))
     },[])
 return (
     <div>
