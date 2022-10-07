@@ -1,9 +1,9 @@
 import React from "react";
-function Result({date,description,category,grade}){
+function Result({name,description,category,grade}){
     return(
        
             <tr>
-                <td>{date}</td>
+                <td>{name}</td>
                 <td>{description}</td>
                 <td>{category}</td>
                 <td>{grade}</td>

@@ -2,16 +2,16 @@
     "results": [
       {
         "id": 1,
-        "date": "2019-12-01",
+        "name": "Peter Krum",
         "description": "Very good student",
         "category": "ICT",
         "grade": "A"
       },
       {
         "id": 2,
-        "date": "2019-12-01",
+        "name": "Vanessa Bling",
         "description": "South by South",
         "category": "Environment Security",
-        "amount": "A"
+        "grade": "C"
       }]
 }

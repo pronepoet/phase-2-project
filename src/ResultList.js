@@ -7,7 +7,7 @@ function ResultList({results}){
       <tbody>
         <tr>
           <th>
-            <h3 className="ui center aligned header">Date</h3>
+            <h3 className="ui center aligned header">Name</h3>
           </th>
           <th>
             <h3 className="ui center aligned header">Description</h3>
@@ -21,7 +21,7 @@ function ResultList({results}){
         </tr>
 {results.map(result => {
     return <Result 
-    date={result.date}
+    name={result.name}
     description={result.description}
     category={result.category}
     grade={result.grade}
