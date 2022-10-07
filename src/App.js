@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+
+
 import ResultContainer from './ResultContainer';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Student App
+ 
+      <div className="ui raised segment">
+ 
+     <h1>Student App </h1>
+
       <ResultContainer />
-     </h1>
     </div>
   );
 }

@@ -1,13 +1,14 @@
 import React from "react";
-function Result(){
+function Result({date,description,category,grade}){
     return(
-        <div>
+       
             <tr>
                 <td>{date}</td>
                 <td>{description}</td>
                 <td>{category}</td>
                 <td>{grade}</td>
             </tr>
-        </div>
+      
     )
 }
+export default Result;

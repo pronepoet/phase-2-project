@@ -1,8 +1,8 @@
 import React from "react";
 import Result from "./Result"
-function ResultList(){
+function ResultList({results}){
     return (
-        <div>
+
                <table className="ui celled striped padded table">
       <tbody>
         <tr>
@@ -19,10 +19,18 @@ function ResultList(){
             <h3 className="ui center aligned header">Grade</h3>
           </th>
         </tr>
-
+{results.map(result => {
+    return <Result 
+    date={result.date}
+    description={result.description}
+    category={result.category}
+    grade={result.grade}
+    key={result.id}
+    />
+})}
       </tbody>
     </table>
-        </div>
+    
     )
 }
 export default ResultList;
