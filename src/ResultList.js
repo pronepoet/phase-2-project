@@ -21,7 +21,7 @@ function ResultList({results}){
         </tr>
 {results.map(result => {
     return <Result 
-    name={result.name}
+    names={result.names}
     description={result.description}
     category={result.category}
     grade={result.grade}

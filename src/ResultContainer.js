@@ -10,10 +10,13 @@ function ResultContainer(){
         .then(resp => resp.json())
         .then(resul => setResults(resul))
     },[])
+    function handleUpdate(newTransaction){
+        console.log(newTransaction)
+    }
 return (
     <div>
        <Search />
-       <AddStudent />
+       <AddStudent onSubmison={handleUpdate}/>
        <ResultList results={results}/>
     </div>
 )
